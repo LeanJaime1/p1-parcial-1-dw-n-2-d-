@@ -1,3 +1,6 @@
+'use strict';
+
+
 /*
  * APELLIDO, NOMBRE | APELLIDO, NOMBRE
  */
