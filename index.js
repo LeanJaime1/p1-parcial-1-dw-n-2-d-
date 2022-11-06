@@ -63,4 +63,9 @@ do{
 let disco = new Disco (nombreDisco, autorDisco, codigoDisco);
     
     
+//guardamos el objeto en el array
+discos.push(disco);
+
+console.log(discos);
+    
 }
