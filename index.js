@@ -68,4 +68,47 @@ discos.push(disco);
 
 console.log(discos);
     
+    
+    
+//pedimos los datos de las pistas y validamos
+do {
+
+    let nombrePista;
+
+    do{
+        nombrePista = prompt('Ingrese el nombre de la pista');
+    }   while(nombrePista.length == 0);
+    
+    
+  
+    let duracionPista;
+
+    do {
+        duracionPista = prompt('Ingrese la duración de la  pista en un rango de 0 a 7200 segundos')
+    } while (isNaN(duracionPista) || duracionPista <= 0 || duracionPista >= 7200 );
+  
+  
+       let pista = new Pista (nombrePista, duracionPista);
+  
+       //guardar las variables
+       pistas.push(pista);
+  
+  } while (confirm('queres agregar mas pistas?'))
+
+ console.log(pistas);
+
+
+
+
+
+ 
+
+ 
+
+
+}
+
+    
+
+    
 }
