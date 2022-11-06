@@ -49,6 +49,15 @@ do{
 }   while(autorDisco.length == 0 || !isNaN(autorDisco));
     
     
+//variable codigo del disco
+let codigoDisco;
+   
+do{
+    codigoDisco = prompt('Ingrese el código del disco en un rango numérico entre 1 y 999');
+}   while( isNaN(codigoDisco) || codigoDisco <= 1 || codigoDisco >= 999 );
+
+    
+    
     
     
 }
