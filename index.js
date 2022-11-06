@@ -99,7 +99,7 @@ do {
 
 
 
-
+alert(`Usted a cargado ${discos.length} discos, puede cargar más si lo desea`);
 
  
 
