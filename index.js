@@ -116,5 +116,28 @@ const Mostrar = () => {
     
     
     
+    discos.forEach(disco => {
+
+       
+         html += ` 
+        <h3>Discos</h3>
+        <p>Nombre del disco: ${disco.nombreDisco}</p>
+        <p>Autor del disco: ${disco.autorDisco}</p>
+        <p>Código del disco: ${disco.codigoDisco}</p>
+        <h4>Pistas del disco</h4>
+        <ul>
+            <li>Nombre de la pista: ${disco.nombrePista} </li>
+            <li>Duración de la pista: <strong style="color: ${disco.duracionPista > 180 ? 'red' : 'black'}" > ${disco.duracionPista}</strong> segundos </li>
+        </ul>
+        
+        
+        
+        
+        `;
+        
+
+    })
+    
+    
     
 };
