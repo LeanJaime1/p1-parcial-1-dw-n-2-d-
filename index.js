@@ -28,6 +28,20 @@ let pistas = [];
 // Función Cargar:
 const Cargar = () => {
     
+    //pedimos los datos del disco y validamos 
+    
+    
+    
+    
+//variable nombre del disco
+let nombreDisco;
+
+do{
+    nombreDisco = prompt('Ingrese el nombre del disco');
+}   while(nombreDisco.length == 0);
+
+    
+    
     
     
     
