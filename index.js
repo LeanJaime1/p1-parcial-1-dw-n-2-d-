@@ -58,6 +58,9 @@ do{
 
     
     
+
+//guardamos las variables en  el objeto
+let disco = new Disco (nombreDisco, autorDisco, codigoDisco);
     
     
 }
