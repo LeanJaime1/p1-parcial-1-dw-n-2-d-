@@ -20,3 +20,7 @@ class Pista{
     }
 }
 
+// arrays:
+let discos = [];
+let pistas = [];
+
