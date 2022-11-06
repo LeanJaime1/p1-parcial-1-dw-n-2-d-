@@ -40,7 +40,13 @@ do{
     nombreDisco = prompt('Ingrese el nombre del disco');
 }   while(nombreDisco.length == 0);
 
-    
+       
+//variable autor del disco
+let autorDisco;
+
+do{
+    autorDisco = prompt('Ingrese el autor del disco');
+}   while(autorDisco.length == 0 || !isNaN(autorDisco));
     
     
     
