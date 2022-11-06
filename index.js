@@ -24,3 +24,11 @@ class Pista{
 let discos = [];
 let pistas = [];
 
+
+// Función Cargar:
+const Cargar = () => {
+    
+    
+    
+    
+}
