@@ -112,5 +112,9 @@ alert(`Usted a cargado ${discos.length} discos, puede cargar más si lo desea`);
 // Función Mostrar:
 const Mostrar = () => {
     
+    let html = '';
+    
+    
+    
     
 };
