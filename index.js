@@ -142,4 +142,9 @@ const Mostrar = () => {
     document.getElementById('info').innerHTML = html; 
     
     
+    
+    //vacio los arrays para  cargar nuevos datos
+     discos = [];
+     pistas = [];    
+    
 };
