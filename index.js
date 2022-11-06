@@ -139,5 +139,7 @@ const Mostrar = () => {
     })
     
     
+    document.getElementById('info').innerHTML = html; 
+    
     
 };
